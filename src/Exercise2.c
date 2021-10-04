@@ -43,7 +43,7 @@ int min, max;
 
     do {
         scanf("%d", &n);
-        printf(MinMaxDigits(n));
+        printMinMaxDigits(n);
     } while( n < 0);
 	return 0;
 }
