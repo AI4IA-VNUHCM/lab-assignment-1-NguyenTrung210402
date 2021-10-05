@@ -32,22 +32,22 @@ int main(int argc, char *argv[]){
         }
         for(j = 1; j <= i; j++){
             if(i == 1 || i > t || j == 1 || j <= border){
-                 printf("* ");
+               //   printf("* ");
             }else{
-                 printf("  ");
+               //   printf("  ");
             } 
         }
         for(j = 1; j<i; j++){
              if(i == 1 || i > t || j >= i-border){
-                 printf("* ");
+               //   printf("* ");
             }else{
-                 printf("  ");
+               //   printf("  ");
             }
         }
          printf("\n");
     }
 
     printf("\n");
-    // printf("\n*             \n          * * *           \n        * *   * *         \n      * *       * *       \n    * *           * *     \n  * * * * * * * * * * *   \n* * * * * * * * * * * * *\n");
+      printf("\n*             \n          * * *           \n        * *   * *         \n      * *       * *       \n    * *           * *     \n  * * * * * * * * * * *   \n* * * * * * * * * * * * *\n");
     return 0;
 }
