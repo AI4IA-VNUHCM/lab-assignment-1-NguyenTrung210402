@@ -21,9 +21,9 @@ Ex:
 int main(int argc, char *argv[]){
     int height = atoi(argv[1]);
     int border = atoi(argv[2]);
-    printf("Input: %d", height);
-    printf(" %d\n", border);
-    printf("Output:\n");
+    // printf("Input: %d", height);
+    // printf(" %d\n", border);
+    // printf("Output:\n");
     int i,j;
     int t = height - border;
     for(i=1; i<= height; i++){
