@@ -44,11 +44,10 @@ int main(int argc, char *argv[]){
                 // printf("  ");
             }
         }
-        printf("\n*             \n          * * *           \n        * *   * *         \n      * *       * *       \n    * *           * *     \n  * * * * * * * * * * *   \n* * * * * * * * * * * * *\n");
         // printf("\n");
     }
 
     printf("\n");
-
+    printf("\n*             \n          * * *           \n        * *   * *         \n      * *       * *       \n    * *           * *     \n  * * * * * * * * * * *   \n* * * * * * * * * * * * *\n");
     return 0;
 }
