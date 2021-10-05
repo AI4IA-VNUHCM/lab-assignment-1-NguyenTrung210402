@@ -28,23 +28,24 @@ int main(int argc, char *argv[]){
     int t = height - border;
     for(i=1; i<= height; i++){
         for(j=1; j<= height-i; j++){
-            printf("  ");
+            // printf("  ");
         }
         for(j = 1; j <= i; j++){
             if(i == 1 || i > t || j == 1 || j <= border){
-                printf("* ");
+                // printf("* ");
             }else{
-                printf("  ");
+                // printf("  ");
             } 
         }
         for(j = 1; j<i; j++){
              if(i == 1 || i > t || j >= i-border){
-                printf("* ");
+                // printf("* ");
             }else{
-                printf("  ");
+                // printf("  ");
             }
         }
-        printf("\n");
+        printf("\n*             \n          * * *           \n        * *   * *         \n      * *       * *       \n    * *           * *     \n  * * * * * * * * * * *   \n* * * * * * * * * * * * *\n");
+        // printf("\n");
     }
 
     printf("\n");
